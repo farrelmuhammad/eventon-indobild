@@ -13,7 +13,7 @@ const Banner = () => {
                 </div>
             </div> */}
             <div class="bg-[#FF843E] h-[400px]">
-                <div class="container mx-auto">
+                <div class="container mx-auto mt-10">
                     <div class="flex flex-col items-center justify-center h-full">
                         <h1 class="text-4xl font-bold text-white">Join the event</h1>
                         <h2 class="text-xl font-bold text-white">Get your event ready</h2>

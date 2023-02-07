@@ -4,7 +4,7 @@ import Logo from "../assets/logo.png"
 const Navbar = () => {
     return (
         <>
-            <nav class="bg-white px-2 sm:px-4 py-2.5 sticky w-full z-20 top-0 left-0 border-b border-gray-200">
+            <div class="bg-white px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b border-gray-200">
                 <div class="container flex flex-wrap items-center justify-between mx-auto">
                     <a href="https://flowbite.com/" class="flex items-center">
                         <img src={Logo} class="h-6 mr-3 sm:h-9" alt="Eventon Logo" />
@@ -39,7 +39,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </div>
         </>
     )
 }
